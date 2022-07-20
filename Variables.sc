@@ -37,7 +37,7 @@ val name2: String = "geekforgeeks";
 
 //##############################
 
-//NOTE: SCALA SUPPORTS MULTIPLE ASSIGNMENT BUT YOU CAN USE MULTIPLE ASSIGNMENT ONLY WITH IMMUTABLE VARIABLES.
+//NOTE: SCALA SUPPORTS MULTIPLE ASSIGNMENT BUT YOU CAN USE MULTIPLE ASSIGNMENT ONLY WITH **IMMUTABLE VARIABLES**.
     //For Example:
           //val(name1:Int, name2:String) = pair(2, "geekforgeeks")
 val(roll_no: Int, s_name: String) = (135, "Mohd Sabir")
