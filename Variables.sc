@@ -9,20 +9,20 @@
 // SYNTAX
     // var Variable_name: Data_type = "value";
 
-var name1: String = "geekforgeeks";
+var name1: String = "Hello World";
 
 //We can do somthing like this
 
-name1 = "gfg"
+name1 = "Hii"
 
 
 // Immutable Variable
 //SYNTAX
     // val Variable_name: Data_type =  "value";
-val name2: String = "geekforgeeks";
+val name2: String = "Hello World";
 
 //we can't do this, it give an error
-//name2 = "gfg"
+//name2 = "abc"
 
 
 //######################################
@@ -39,17 +39,25 @@ val name2: String = "geekforgeeks";
 
 //NOTE: SCALA SUPPORTS MULTIPLE ASSIGNMENT BUT YOU CAN USE MULTIPLE ASSIGNMENT ONLY WITH **IMMUTABLE VARIABLES**.
     //For Example:
-          //val(name1:Int, name2:String) = pair(2, "geekforgeeks")
+          //val(name1:Int, name2:String) = pair(2, "Hello World")
 val(roll_no: Int, s_name: String) = (135, "Mohd Sabir")
 println(roll_no)
 println(s_name)
+
 
 //############################################
 
 //VARIABLE TYPE INFERENCE IN SCALA: Scala supports variable type inference. In variable type inference values are directly assigned to the variable without defining its data type, the Scala compiler automatically resolves which value belongs to which data type.
     //  For Example:
       var name3=40;
-      val name4="geeksforgeeks";
+      val name4="Hello World";
       println(name3)
       println(name4)
 //Here, name1 is by default int type and name2 is by default string type.
+
+
+
+//################################################
+
+//TO UNDERSTAND THE SCOPE OF THE VARIABLES REFER TO THIS GFG ARTICLE
+//https://www.geeksforgeeks.org/scope-of-variables-in-scala/
